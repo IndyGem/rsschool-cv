@@ -53,12 +53,51 @@ html {
 .personal__data_name {
     background-color: #38a5a8;
     padding: 10px 20px;
-    }
+}
 
 .personal__data_name-title {
     font-size: 40px;
 }
 
 .personal__data_name-position {
+    font-size: 20px;
+}
+
+.main-wrapper {
+    display: flex;
+    background-color: #747477;
+}
+
+.main-wrapper__left {
+    width: 30%;
+    padding: 10px 20px;
+}
+
+.main-wrapper__right {
+    width: 70%;
+    padding: 10px 20px;
+}
+
+.main-wrapper__title {
+    background-color: #38a5a8;
+    color: #fff;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #38a5a8;
+}
+
+.footer_img {
+    width: 10%;
+}
+
+.footer_link {
+    text-decoration: none;
+    color: #fff;
     font-size: 20px;
 }
