@@ -4,9 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
-<body>
-    
+<body class="container">
+    <header class="header">
+        <nav>
+            <ul class="nav">
+                <li class="nav__item"><a href="#contacts" class="nav__link">contacts</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">skills</a></li>            
+                <li class="nav__item"><a href="#education" class="nav__link">education</a></li>            
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="personal">
+            <img src="./assets/ava.jpg" alt="ava" class="personal__photo">
+            <div class="personal__data">
+                <div class="personal__data_name">
+                    <h1 class="personal__data_name-title">Polikarpov Vyacheslav Viktorovich</h1>
+                    <p class="personal__data_name-position">Frontend Developer</p>
+                </div>
+                <div class="personal__data_about">
+                    <p>About</p>
+                </div>
+            </div>
+        </section>
+        <div class="main-wrapper">
+            <div class="main-wrapper__left">
+                <div>
+                    <h2 class="main-wrapper__title" id="contacts">Contacts</h2>
+                    <ul>
+                        <li>Phone <span>+7(921)640-60-66</span></li>
+                        <li>Email <span>via4eslav.polikarpov@yandex.ru</span></li>
+                        <li>Discord <span>Clockwork11orange(indygem)</span></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="main-wrapper__title" id="skills">Skills</h2>
+                    <ul>
+                        <li>Python</li>
+                        <li>VS Code</li> 
+                        <li>HTML</li> 
+                        <li>CSS</li>
+                        <li>Git, GitHub</li>
+                        <li>JS</li>                
+                    </ul> 
+                </div>
+            </div>
+            <div class="main-wrapper__right">
+                <div>
+                    <h2 class="main-wrapper__title" id="education">Education</h2>
+                    <p>text</p> 
+                </div>
+                <div>
+                    <h2 class="main-wrapper__title">Experience</h2>
+                    <p>text</p>
+                </div>
+                <div>
+                    <h2 class="main-wrapper__title">Experience</h2>
+                    <p>text</p>
+                </div>
+                <div>
+                    <h2 class="main-wrapper__title">Language</h2>
+                    <p>text</p>
+                </div>
+                <div>
+                    <h2 class="main-wrapper__title">Code Example</h2>
+                <code>
+                    a, b, c, d = int(input()), int(input()), int(input()), int(input())<br>
+                    if(((c - a) ** 2 == 1 and ((d - b) ** 2) // 2 == 2) or (((c - a) ** 2) // 2 == 2 and (d - b) ** 2 == 1)):<br>
+                        print('YES')<br>
+                    else:<br>
+                        print('NO')
+                </code>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <a class="footer_link" href="https://github.com/IndyGem">IndyGem</a>
+        <p class="footer_link">2022</p>
+        <a class="footer_img" href="https://rs.school/js/"><img src="./assets/logo.svg" alt="logo"></a>
+    </footer>
 </body>
 </html>
