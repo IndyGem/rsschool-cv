@@ -200,3 +200,14 @@ body {
     font-weight: 600;
     color: rgba(6, 45, 77, 0.984);
 }
+
+#projects {
+    font-family: 'Josefin Sans';
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(6, 45, 77, 0.984);
+}
+
+a {
+    text-decoration: none;
+}
