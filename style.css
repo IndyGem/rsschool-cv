@@ -28,12 +28,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     font-family: 'Josefin Sans';
     color: rgba(6, 45, 77, 0.747);
 }
 
 .header {
     background-color:  rgb(225, 214, 252);
+    width: 100%;
 }
 .nav-list {
     display: flex;
@@ -59,6 +61,7 @@ body {
 .main-conteiner {
     display: flex;
     flex-wrap: wrap;
+    width: 96%;
 }
 
 .section {
@@ -83,6 +86,7 @@ body {
     height: 250px ;
     width: auto ;
     border-radius: 30%;
+    margin-top: 15px;
 }
 
 .profile-info {
@@ -118,15 +122,17 @@ body {
 
 .contacts-item-text {
     margin: 5px;
-    font-family: 'Dancing Script';
+    font-family: 'Josefin Sans';
+    font-weight: 600;
     font-size: 20px;
     color: rgba(6, 45, 77, 0.984);
 }
 
 .sammary-text {
     margin: 5px;
-    font-family: 'Dancing Script';
+    font-family: 'Josefin Sans';
     font-size: 30px;
+    font-weight: 600;
     color: rgba(6, 45, 77, 0.984);
 }
 
@@ -134,7 +140,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 80%;
     font-family: 'Josefin Sans';
+    border-top: 5px solid rgb(225, 214, 252);
+    margin-top: 50px;
 }
 
 .footer-year {
@@ -179,13 +188,15 @@ body {
 }
 
 #education {
-    font-family: 'Dancing Script';
+    font-family: 'Josefin Sans';
     font-size: 25px;
+    font-weight: 600;
     color: rgba(6, 45, 77, 0.984);
 }
 
 #languages {
-    font-family: 'Dancing Script';
+    font-family: 'Josefin Sans';
     font-size: 25px;
+    font-weight: 600;
     color: rgba(6, 45, 77, 0.984);
 }
