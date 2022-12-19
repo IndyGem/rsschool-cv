@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'Dancing Script' ;
+    src: url(./assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url(./assets/fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
+    font-weight: 100;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Josefin Sans';
+    color: rgba(6, 45, 77, 0.747);
+}
+
+.header {
+    background-color:  rgb(225, 214, 252);
+    width: 100%;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    font-family: 'Dancing Script';
+
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 50px;
+    color: rgba(6, 45, 77, 0.975);
+    transition: .1s;
+}
+
+.nav-link:hover {
+    color: rgb(201, 235, 105);
+}
+
+.main-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+}
+
+.section {
+    width: 50%;
+}
+
+.section-title {
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    font-weight: 400;
+    color: rgba(6, 45, 77, 0.984);
+}
+
+#profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-photo {
+    height: 250px ;
+    width: auto ;
+    border-radius: 30%;
+    margin-top: 15px;
+}
+
+.profile-info {
+    padding:  40px;
+    font-size: 25px;
+}
+
+
+
+.section-second-titel {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: rgba(6, 45, 77, 0.34);
+}
+
+.contacts-icon {
+    width: 30px;
+    height: 30px;
+    background-color:  rgb(225, 214, 252);
+}
+
+.section-title {
+    margin: 5% 0;
+}
+
+.contacts-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.contacts-item-text {
+    margin: 5px;
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(6, 45, 77, 0.984);
+}
+
+.sammary-text {
+    margin: 5px;
+    font-family: 'Josefin Sans';
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(6, 45, 77, 0.984);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    font-family: 'Josefin Sans';
+    border-top: 5px solid rgb(225, 214, 252);
+    margin-top: 50px;
+}
+
+.footer-year {
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    color: rgba(6, 45, 77, 0.984);
+
+}
+
+.footer-logo {
+    width: 100px;
+}
+
+.footer-git-img {
+    width: 100px;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans';
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(0, 1, 1);
+}
+
+.skills-second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.skills img {
+    width: 40px;
+}
+
+#code {
+    font-family: 'Dancing Script';
+    font-size: 25px;
+    color: rgba(6, 45, 77, 0.984);
+}
+
+#education {
+    font-family: 'Josefin Sans';
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(6, 45, 77, 0.984);
+}
+
+#languages {
+    font-family: 'Josefin Sans';
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(6, 45, 77, 0.984);
+}
+
+#projects {
+    font-family: 'Josefin Sans';
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(6, 45, 77, 0.984);
+}
+
+a {
+    text-decoration: none;
+}
